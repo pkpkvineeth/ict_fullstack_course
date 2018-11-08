@@ -4,13 +4,27 @@ body
 }
 .first
 {
-    background-color: yellow;
+    background-color: red;
 }
 .second
 {
     background-color:green;
 }
-.log
+/*.log
 {
     background-color: blueviolet;
+}*/
+h3
+{
+ margin-left:300px;
+ margin-right:100px;
+ margin-top:100px;
+ margin-bottom:100px;
+}
+.div1
+{
+    border: 8px solid black;
+    background: #454545;
+    width:400px;
+    margin-left: 400px;
 }
