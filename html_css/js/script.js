@@ -39,7 +39,8 @@ function calc()
     {
         result= Number(num1) / Number(num2);
     }
-    console.log(result);
+   // console.log(result);
+   document.getElementById("result").innerHTML=result;
 }
 function Largest()
 {
@@ -58,7 +59,8 @@ function Largest()
     {
         large=z;
     }
-    console.log("Greatest Number:"+large);
+    //console.log("Greatest Number:"+large);
+    document.getElementById("result").innerHTML="<div class='card bg-danger text-white'>"+large+"</div>";
 }
 function Smallest()
 {
@@ -77,5 +79,6 @@ function Smallest()
     {
         small=z;
     }
-    console.log("Smallest Number:"+small);
+    //console.log("Smallest Number:"+small);
+    document.getElementById("result").innerHTML="<div class='card bg-success text-white'>"+small+"</div>";
 }
