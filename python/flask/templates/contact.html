@@ -1,0 +1,100 @@
+{% extends 'layout.html' %}
+{% block myBlock %}
+<br>
+<h2 class="text-info"><center> CONTACT US </center></h2>
+<br><form method="POST" action="/send">
+    <div class="text-white">
+    <div class="row">
+        <div class="col-sm-3">
+                
+        </div>
+        <div class="col-sm-2">
+            Name
+        </div>
+        <div class="col-sm-4">
+            <input name="name" class="form-control" type="text" placeholder="name">
+        </div>
+        <div class="col-sm-3">
+                
+            </div>
+    </div>
+<br>
+    <div class="row">
+       <div class="col-sm-3">
+                
+        </div>
+        <div class="col-sm-2">
+            Email-ID
+        </div>
+        <div class="col-sm-4">
+            <input name="email" class="form-control" type="text" placeholder="email">
+        </div>
+        <div class="col-sm-3">
+                
+            </div>
+    </div>
+<br>
+<div class="row">
+        <div class="col-sm-3">
+                
+        </div>
+        <div class="col-sm-2">
+            Mobile Number
+        </div>
+        <div class="col-sm-4">
+            <input name="mobile" class="form-control" type="number" placeholder="mobile">
+        </div>
+        <div class="col-sm-3">
+                
+        </div>
+</div>
+<br>
+<div class="row">
+        <div class="col-sm-3">
+                
+        </div>
+        <div class="col-sm-2">
+            Subject
+        </div>
+        <div class="col-sm-4">
+            <input name="subject" class="form-control" type="text" placeholder="subject">
+        </div>
+        <div class="col-sm-3">
+                
+            </div>
+</div>
+<br>
+<div class="row">
+        <div class="col-sm-3">
+                
+        </div>
+        <div class="col-sm-2">
+            Message
+        </div>
+        <div class="col-sm-4">
+            <textarea name="message" class="form-control" rows="4" cols="50" placeholder="message"></textarea>
+        </div>
+        <div class="col-sm-3">
+                
+        </div>
+</div>
+<br>
+<br>
+<div class="row">
+        <div class="col-sm-4">
+    
+        </div>
+        <div class="col-sm-3">
+    
+        </div>
+        <div class="col-sm-4">
+        <button class="btn btn-primary" type="submit">CONTACT US</button>    
+        </div>
+        <div class="col-sm-1">
+    
+        </div>
+</div>
+</div>
+</form>
+<br>
+{% endblock %}
